@@ -1,5 +1,6 @@
 # Ignore Mac system files
 .DS_store
+*.swp
 
 # Ignore node_modules folder
 node_modules
