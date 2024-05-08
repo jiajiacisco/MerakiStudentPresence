@@ -5,7 +5,7 @@ Meraki APIs can be used to simplify certain opertional and administrative works 
 <br/>
 
 **Product Description:** <br/>
-MerakiStudetPresence makes use of Meraki APIs and telemetry data to enable univerity admins to have greater visbility into a student's activity in the univeristy campus <br/>
+MerakiStudetPresence makes use of Meraki APIs and telemetry data to enable university admins to have greater visbility into a student's activity in the univeristy campus <br/>
 
 **Use Cases:** 
 1. **Attendance Taking** Verify if a student visited the campus on a certain date and time
