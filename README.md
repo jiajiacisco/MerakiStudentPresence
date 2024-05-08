@@ -15,11 +15,11 @@ MerakiStudetPresence makes use of Meraki APIs and telemetry data to enable unive
 **Product Overview**<br/>
 1. **Login Page:<space>** Enter your Meraki API Key that is obtainable from your Meraki Dashboard <br/>
 ![App Interface Diagram](https://github.com/jiajiacisco/MerakiStudentPresence/blob/main/images/p3.png)
-3. **Query Page:&nbsp** The webpage will fetch the Meraki Organisation and Network your API Key has access to. Select what you wish to query and input the datetime period. <br/>
+3. **Query Page:<space>** The webpage will fetch the Meraki Organisation and Network your API Key has access to. Select what you wish to query and input the datetime period. <br/>
 ![App Interface Diagram](https://github.com/jiajiacisco/MerakiStudentPresence/blob/main/images/p4.png)
-4. **Query Records:&nbsp** Display data for all users that associated and disassociate with the Meraki Network. Data is downloadable into excel for further use. <br/>
+4. **Query Records:<space>** Display data for all users that associated and disassociate with the Meraki Network. Data is downloadable into excel for further use. <br/>
 ![App Interface Diagram](https://github.com/jiajiacisco/MerakiStudentPresence/blob/main/images/p5.png)
-5. **Built-in Search Functionality:&nbsp** Allow users to search and filter data for a particular date, User Name or Device Name. <br/>
+5. **Built-in Search Functionality:<space>** Allow users to search and filter data for a particular Date, User Name or Device Name. <br/>
 ![App Interface Diagram](https://github.com/jiajiacisco/MerakiStudentPresence/blob/main/images/p6.png)
 
 # App Design <br />
