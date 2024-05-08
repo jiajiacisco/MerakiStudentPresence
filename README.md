@@ -1,6 +1,6 @@
 # Meraki Student Presence
 
-**Background:** <br/> University is looking to refresh exiting network equipment. To position Meraki in a stronger position, we wanted to show that besides providing network connectivity and cloud-based management,
+**Background:** <br/> University is looking to refresh existing network equipment. To position Meraki in a stronger position, we wanted to show that besides providing network connectivity and cloud-based management,
 Meraki APIs can be used to simplify certain opertional and administrative works in the school environment 
 <br/>
 
@@ -9,7 +9,7 @@ MerakiStudentPresence makes use of Meraki APIs and telemetry data to enable univ
 
 **Use Cases:** 
 1. **Attendance Taking** Verify if a student visited the campus on a certain date and time
-2. **Location Analytics** Verify student location on campus based on the Access Point it connected to
+2. **Location Analytics** Verify student location on campus based on the Access Point his device is connected to
 3. **Device Lost&Found** When a device goes missing, we can narrow down the location by checking which access point it is connected to
 
 **Product Overview**<br/>
