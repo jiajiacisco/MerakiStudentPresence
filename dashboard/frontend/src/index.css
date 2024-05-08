@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #ADD8E6;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+/* Login/Home Page Styling */
+.submit {
+  text-align: center;
+  position: fixed; 
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+
+.submit label {
+  text-align: left;
+  display: block;
+  color: #04AF70;
+}
+.submit h2 {
+  font-size: 20px;
+  color: #04AF70;
+  margin-bottom: 30px;
+}
+.submit input, .submit textarea, .submit select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+
+}
+.submit button {
+  background: #013220;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+p.errormsg {
+  color: red;
+}
+
+
+/* Dashboard Page Styling */
+.create {
+  max-width: 450px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 50px;
+
+}
+.create label {
+  text-align: left;
+  display: block;
+  font-weight: bold;
+  color:#ffffff;
+  font-size: 20px;
+  font-weight: bold;
+  
+  
+}
+.create h2 {
+  font-size: 35px;
+  color:#ffffff;
+  padding-bottom: 30px;
+}
+.create input, .create textarea, .create select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.create button {
+  background:#ADD8E6;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.create button.nav {
+  background:	#3CB371;
+  margin-top: 50px;
+} 
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.download-btn {
+    @apply bg-blue-600 hover:bg-gray-100 hover:text-indigo-600 fill-white hover:fill-indigo-600 px-4 py-2 
+    flex text-white items-center gap-2 rounded
+}
