@@ -13,7 +13,7 @@ MerakiStudetPresence makes use of Meraki APIs and telemetry data to enable unive
 3. **Device Lost&Found** When a device goes missing, we can narrow down the location by checking which access point it is connected to
 
 **Product Overview**<br/>
-1. **Login Page:&nbsp** Enter your Meraki API Key that is obtainable from your Meraki Dashboard <br/>
+1. **Login Page:<space>** Enter your Meraki API Key that is obtainable from your Meraki Dashboard <br/>
 ![App Interface Diagram](https://github.com/jiajiacisco/MerakiStudentPresence/blob/main/images/p3.png)
 3. **Query Page:&nbsp** The webpage will fetch the Meraki Organisation and Network your API Key has access to. Select what you wish to query and input the datetime period. <br/>
 ![App Interface Diagram](https://github.com/jiajiacisco/MerakiStudentPresence/blob/main/images/p4.png)
