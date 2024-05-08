@@ -14,7 +14,7 @@ MerakiStudetPresence makes use of Meraki APIs and telemetry data to enable unive
 
 **Product Overview**<br />
 1. **Login Page** Enter your Meraki API Key that is obtainable from your Meraki Dashboard
-![App Interface Diagram](https://raw.githubusercontent.com/jiajiacisco/MerakiStudentPresence/tree/main/images/p3.png)
+![App Interface Diagram](https://github.com/jiajiacisco/MerakiStudentPresence/blob/main/images/p3.png)
 3. **Query Page** The webpage will fetch the Meraki Organisation and Network your API Key has access to. Select what you wish to query and input the datetime period too
 ![App Interface Diagram](https://github.com/jiajiacisco/MerakiStudentPresence/tree/main/images/p4.png)
 4. **Query Records Page** Display data for all users that associated and disassociate with the Meraki Network. Data is downloadable into excel for further use
@@ -28,6 +28,7 @@ MerakiStudetPresence makes use of Meraki APIs and telemetry data to enable unive
 
 **Technolgies Used:** 
 Meraki API, ReactJS,Python, Flask
+
 
 
 
