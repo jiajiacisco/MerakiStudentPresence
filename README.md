@@ -1,7 +1,7 @@
 # Meraki Student Presence
 
 **Background:** <br/> University is looking to refresh existing network equipment. To position Meraki in a stronger position, we wanted to show that besides providing network connectivity and cloud-based management,
-Meraki APIs can be used to simplify certain opertional and administrative works in the school environment 
+Meraki APIs can be used to simplify certain operational and administrative works in the school environment 
 <br/>
 
 **Product Description:** <br/>
