@@ -1,10 +1,10 @@
 # Meraki Student Presence
 
-**Background:** <br/> University is looking to refresh exiting network equipment. To position Meraki in a stronger position, we wanted to show that besides providing network connectivity and cloud-based management
+**Background:** <br/> University is looking to refresh exiting network equipment. To position Meraki in a stronger position, we wanted to show that besides providing network connectivity and cloud-based management,
 Meraki APIs can be used to simplify certain opertional and administrative works in the school environment 
 <br/>
 
-**Product Description** <br/>
+**Product Description:** <br/>
 MerakiStudetPresence makes use of Meraki APIs and telemetry data to enable univerity admins to have greater visbility into a student's activity in the univeristy campus <br/>
 
 **Use Cases:** 
