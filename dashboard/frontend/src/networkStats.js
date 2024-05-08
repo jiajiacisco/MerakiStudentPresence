@@ -36,7 +36,6 @@ const NetworkStats = () => {
               APIKey: API_KEY
             }
           })
-        console.log(result)
         setNetwork(result.data.data)
         for (let i = 0; i<result.data.data.length;i++) {
             setOrgIdList(oldArray => [...oldArray,result.data.data[i]['orgId']] );
@@ -75,7 +74,6 @@ const NetworkStats = () => {
               APIKey: API_KEY
             }
           }).then(function (response) {
-            console.log(response.data);
             navigate("/table",
             {state:{clientData:response.data}}
             )
@@ -88,61 +86,49 @@ const NetworkStats = () => {
     return (
 
         <div className='main' style={myStyle}>
-   
         <div className="create">  
-            
             <h2>Welcome Back!</h2>
-
-        <form onSubmit={handleSubmit}>
-          
-            <label>Select your organisation</label>
-            <select onChange={(event)=>{onStateChange(event)}}>
-            <option>Organisation</option>
+            <form onSubmit={handleSubmit}>
+                <label>Select your organisation</label>
+                <select onChange={(event)=>{onStateChange(event)}}>
+                <option>Organisation</option>
                 {
                     orgIdList.map((item)=> {
                         return (<option key={item}> {item}</option>)
                     })
                 }
-
-            </select>
-                <label>Select your Network</label>
-                <select onChange={(e) =>  setId(e.target.value)} > 
-                <option>Network</option>
+                </select>
+                    <label>Select your Network</label>
+                    <select onChange={(e) =>  setId(e.target.value)} > 
+                    <option>Network</option>
                     {
                         networkIdList.map((item)=>{
                             return(<option key={item}> {item}</option>)
                             
                         })
                     }
-                </select>
-
-            {/* YYYY-MM-DDThh:mm:ssZ */}
-            <label>Start DateTime</label>
-                <input 
-                type="datetime-local" 
-                required 
-                value={startDateTime}
-                onChange={(e) =>  setstartDateTime(e.target.value)}
-                />  
-
-
-            <label>End DateTime</label>
-                <input 
-                type="datetime-local" 
-                required 
-                value={endDateTime}
-                onChange={(e) =>  setendDateTime(e.target.value)}
-                />  
-                <button>Submit</button>
+                    </select>
+                {/* YYYY-MM-DDThh:mm:ssZ */}
+                <label>Start DateTime</label>
+                    <input 
+                    type="datetime-local" 
+                    required 
+                    value={startDateTime}
+                    onChange={(e) =>  setstartDateTime(e.target.value)}
+                    />  
+                <label>End DateTime</label>
+                    <input 
+                    type="datetime-local" 
+                    required 
+                    value={endDateTime}
+                    onChange={(e) =>  setendDateTime(e.target.value)}
+                    />  
+                    <button>Submit</button>
             </form>
             <p className="errormsg">{message}</p>
             <button className='nav' onClick={changePage}> Change Selection Mode </button>
         </div>
         </div>
-
-
-
     );
 };
-
 export default NetworkStats;
